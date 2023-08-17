@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>ゆるふわ</title>
- <link href="http://blog.kanaumi.net/atom.xml" rel="self"/>
- <link href="http://blog.kanaumi.net/"/>
- <updated>2023-08-17T23:58:52+09:00</updated>
- <id>http://blog.kanaumi.net</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2023-08-18T00:21:11+09:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>canaan</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>台風7号</title>
-   <link href="http://blog.kanaumi.net/justo-imperdiet-condimentum-ad-cum-acanone/"/>
+   <link href="http://localhost:4000/justo-imperdiet-condimentum-ad-cum-acanone/"/>
    <updated>2023-08-17T09:00:00+09:00</updated>
-   <id>http://blog.kanaumi.net/typhoon</id>
+   <id>http://localhost:4000/typhoon</id>
    <content type="html">&lt;p&gt;8月11日から大阪に帰省し、15日に戻ってくる予定でしたが、台風7号が関西地域にやってきたので、16日に後ろ倒し。
 伊勢湾岸道の通行止めが15日夜に解除され、16日の出発直前に名阪国道の通行止めが解除。つまり、名古屋を抜ける高速道路が出発直前の16日早朝まで1つしかなかった状態。この状態だったので、渋滞覚悟で名神高速を使って戻ろうと考えていました。往路は事故渋滞が4件、自然渋滞が1件でこれまでの最長記録の12時間で、復路はこの時間を越える可能性があり、とても不安でした。&lt;/p&gt;
 
