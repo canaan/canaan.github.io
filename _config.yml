@@ -19,9 +19,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
+  name:              Yoshihiko Kanaumi
   url:               blog.kanaumi.net
-  email:             nico@elayda.com
+#  email:             
 
 plugins:
   - jekyll-coffeescript
