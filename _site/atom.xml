@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ゆるふわ</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2023-08-17T23:20:03+09:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>canaan</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>台風7号</title>
+   <link href="http://localhost:4000/justo-imperdiet-condimentum-ad-cum-acanone/"/>
+   <updated>2023-08-17T09:00:00+09:00</updated>
+   <id>http://localhost:4000/typhoon</id>
+   <content type="html">&lt;p&gt;8月11日から大阪に帰省し、15日に戻ってくる予定でしたが、台風7号が関西地域にやってきたので、16日に後ろ倒し。
+伊勢湾岸道の通行止めが15日夜に解除され、16日の出発直前に名阪国道の通行止めが解除。つまり、名古屋を抜ける高速道路が出発直前の16日早朝まで1つしかなかった状態。この状態だったので、渋滞覚悟で名神高速を使って戻ろうと考えていました。往路は事故渋滞が4件、自然渋滞が1件でこれまでの最長記録の12時間で、復路はこの時間を越える可能性があり、とても不安でした。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/typhoon7/ise-highway.jpg&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;　　　&lt;img src=&quot;/assets/images/typhoon7/meihankokudo.jpg&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;　　　&lt;img src=&quot;/assets/images/typhoon7/shin-meishin.PNG&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;名阪国道と伊勢湾岸道の通行止めが解除されたので、不安は吹き飛び、16日6:00am に南大阪を出発し、9:00am には&lt;a href=&quot;https://goo.gl/maps/dYqEFBFMDFLYm3VRA&quot;&gt;&lt;strong&gt;長篠設楽原PA&lt;/strong&gt;&lt;/a&gt;に到着し、ウキウキ・ルンルンで、ルージュの伝言とか聞きながら、ドライブを楽しんでいました。&lt;/p&gt;
+
+&lt;p&gt;ところがどっこい。まだ罠はありました。線状降水帯が静岡県を襲い、洗車機の中をドライブすることになり、生きた心地がしませんでした。&lt;a href=&quot;https://twitter.com/7shin_7_shin7/status/1691618774930313655?s=20&quot;&gt;&lt;strong&gt;こんな感じ&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/typhoon7/shizuoka-senjyo.PNG&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;　　　&lt;img src=&quot;/assets/images/typhoon7/shintomei-tomei-stops.PNG&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;　　　&lt;img src=&quot;/assets/images/typhoon7/shizuoka-shinbun.PNG&quot; alt=&quot;&quot; width=&quot;25%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;世の中は大変でしたが、我が家は約6時間後の12:00過ぎに戻ってこれ、自宅近くの丸亀製麺で昼食を取ることができました。
+ちなみに、新東名と東名の通行止めが解消されたのは、&lt;a href=&quot;https://smbiz.asahi.com/article/14982336&quot;&gt;&lt;strong&gt;16日の22:30ごろ&lt;/strong&gt;&lt;/a&gt;だったそうです。&lt;a href=&quot;https://www.youtube.com/watch?v=F7aylpfmYec&quot;&gt;&lt;strong&gt;土砂崩れ&lt;/strong&gt;&lt;/a&gt;が起きてたみたいです。&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
