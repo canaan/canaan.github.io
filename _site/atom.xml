@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>ゆるふわ</title>
- <link href="https://blog.kanaumi.net/atom.xml" rel="self"/>
- <link href="https://blog.kanaumi.net"/>
- <updated>2023-08-18T17:11:32+09:00</updated>
- <id>https://blog.kanaumi.net</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2023-08-21T13:57:55+09:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
    <email></email>
@@ -14,22 +14,24 @@
  
  <entry>
    <title>ゴルフの練習</title>
-   <link href="https://blog.kanaumi.net/blog/2023/08/18/glof-practice/"/>
+   <link href="http://localhost:4000/blog/2023/08/18/glof-practice/"/>
    <updated>2023-08-18T00:00:00+09:00</updated>
-   <id>https://blog.kanaumi.net/blog/2023/08/18/glof-practice</id>
+   <id>http://localhost:4000/blog/2023/08/18/glof-practice</id>
    <content type="html">&lt;p&gt;ここ最近、毎月ゴルフに行っている。8月は2回も行くことになってる。&lt;/p&gt;
 
 &lt;p&gt;2回目はコンペで、少ないから参加して欲しいと連絡があったのに、ふたを明けてみると参加者約100名のコンペ。&lt;/p&gt;
 
-&lt;p&gt;気軽なゴルフが好きです。&lt;/p&gt;
+&lt;p&gt;なので、コースを回る直前には、練習場に行き、1時間ほど打ち放題。今回は右手親指と左手人差し指に豆ができた。。。&lt;/p&gt;
+
+&lt;p&gt;しかし、気軽なゴルフが好きです。&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>台風7号</title>
-   <link href="https://blog.kanaumi.net/blog/2023/08/17/typhoon7/"/>
+   <link href="http://localhost:4000/blog/2023/08/17/typhoon7/"/>
    <updated>2023-08-17T00:00:00+09:00</updated>
-   <id>https://blog.kanaumi.net/blog/2023/08/17/typhoon7</id>
+   <id>http://localhost:4000/blog/2023/08/17/typhoon7</id>
    <content type="html">&lt;p&gt;8月11日から大阪に帰省し、15日に戻ってくる予定でしたが、台風7号が関西地域にやってきたので、16日に後ろ倒し。
 伊勢湾岸道の通行止めが15日夜に解除され、16日の出発直前に名阪国道の通行止めが解除。つまり、名古屋を抜ける高速道路が出発直前の16日早朝まで1つしかなかった状態。この状態だったので、渋滞覚悟で名神高速を使って戻ろうと考えていました。往路は事故渋滞が4件、自然渋滞が1件でこれまでの最長記録の12時間で、復路はこの時間を越える可能性があり、とても不安でした。&lt;/p&gt;
 
