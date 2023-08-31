@@ -4,13 +4,27 @@
  <title>ゆるふわ</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2023-08-21T13:57:55+09:00</updated>
+ <updated>2023-08-31T11:24:41+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>自動運転実験とスーパームーン</title>
+   <link href="http://localhost:4000/blog/2023/08/31/supermoon_selfdriving/"/>
+   <updated>2023-08-31T00:00:00+09:00</updated>
+   <id>http://localhost:4000/blog/2023/08/31/supermoon_selfdriving</id>
+   <content type="html">&lt;p&gt;ゴルフ帰りに大橋ジャンクションあたりで目撃したトヨタの自動運転実験車両（と思われる）
+&lt;img src=&quot;/images/self-driving/self-driving1.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;
+&lt;img src=&quot;/images/self-driving/self-driving2.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;とある場所からスーパームーンに近い状態の月とスカイツリー。8月31日が今年&lt;a href=&quot;https://weathernews.jp/s/topics/202308/300115/&quot;&gt;最も近い満月&lt;/a&gt;だそうです。ピンボケですが。。。
+&lt;img src=&quot;/images/supermoon/supermoon-skytree.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>ゴルフの練習</title>
