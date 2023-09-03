@@ -4,13 +4,55 @@
  <title>ゆるふわ</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2023-08-31T11:24:41+09:00</updated>
+ <updated>2023-09-03T17:00:35+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>SRE の原文をePub にしてみる</title>
+   <link href="http://localhost:4000/blog/2023/09/03/SRE-epub/"/>
+   <updated>2023-09-03T00:00:00+09:00</updated>
+   <id>http://localhost:4000/blog/2023/09/03/SRE-epub</id>
+   <content type="html">&lt;p&gt;4月からの部署異動で、K8s の担当になった。
+マイクロサービス等々、いろいろと調べている内に、SRE (Site Reliability Engineering) に行き当たる。
+昔、気になって読みたかったけど、サボっていた。
+そこで一念発起して、読むことに。まずは、日本語翻訳本を会社の図書室から借り、英語の勉強も兼ねて原文も読むことにした。
+原文は無料で公開されているので、Kindle 用にePub に変換したくなり、試行錯誤。
+案の定、結構手間が掛かった。
+その手順をまとめてみた。&lt;/p&gt;
+
+&lt;p&gt;まずはこの2冊&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sre.google/sre-book/table-of-contents/&quot;&gt;Site Reliability Engineering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sre.google/workbook/table-of-contents/&quot;&gt;The Site Reliability Workbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;手元のMac で環境を作るのは、気が引けたので、コンテナ環境にUbuntu のPod を作り、そこに環境を作ってみた。
+まず試したのは、&lt;a href=&quot;https://kiririmode.hatenablog.jp/entry/20180429/1524998169#pup&quot;&gt;この記事&lt;/a&gt;。しかし、古すぎて、動かない。&lt;/p&gt;
+
+&lt;p&gt;そこで、英語で検索してみると、&lt;a href=&quot;https://github.com/captn3m0/google-sre-ebook&quot;&gt;Github&lt;/a&gt; を発見。Ruby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
+しかし、pdf とmobi ができあがらない。よくよく見てみると、WARNING が出ている。メッセージ通り、追加でパッケージをインストール。
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install texlive-xetex&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;できあがったePub を&lt;a href=&quot;https://www.amazon.co.jp/sendtokindle&quot;&gt;Kindle に送付&lt;/a&gt;したところ、エラー。
+&lt;img src=&quot;/images/making-ePub/kindle-fail-SRE.png&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;エラーメッセージの内容は、&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;E20006: OPF メタデータで定義されている一つ以上のタイトルがあります。しかし、それらのひとつでも&quot;main&quot; タイトルとして &quot;title-type&quot; で絞り込みされていません。詳細については、[https://idpf.org/epub/30/spec/epub30-publications.html#sec-opf-dctitle](http://idpf.org/epub/30/spec/epub30-publications.html#sec-opf-dctitle) をご参照ください。&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;そこで、次にePub のメタデータの編集。Mac では有料ソフトしかなさそうなので、Windows10に&lt;a href=&quot;https://epub-metadata-editor.softonic.jp/&quot;&gt;アプリをインストール&lt;/a&gt;し、opf ファイル内の2つ目のtitle id を削除。
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&amp;lt;dc:title id=&quot;epub-title-2&quot;&amp;gt;workbook&amp;lt;/dc:title&amp;gt;&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;無事、Kindle で読めることになった。
+その他のSRE 関連書籍で無料公開されているものがあるので、この手順でePub 作ってみようかと。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>自動運転実験とスーパームーン</title>

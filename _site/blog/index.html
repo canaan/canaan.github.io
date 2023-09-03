@@ -38,6 +38,54 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2023/09/03/SRE-epub/">
+        SRE の原文をePub にしてみる
+      </a>
+    </h1>
+
+    <time datetime="2023-09-03T00:00:00+09:00" class="post-date">03 Sep 2023</time>
+
+    
+      <p>4月からの部署異動で、K8s の担当になった。
+マイクロサービス等々、いろいろと調べている内に、SRE (Site Reliability Engineering) に行き当たる。
+昔、気になって読みたかったけど、サボっていた。
+そこで一念発起して、読むことに。まずは、日本語翻訳本を会社の図書室から借り、英語の勉強も兼ねて原文も読むことにした。
+原文は無料で公開されているので、Kindle 用にePub に変換したくなり、試行錯誤。
+案の定、結構手間が掛かった。
+その手順をまとめてみた。</p>
+
+<p>まずはこの2冊</p>
+<ul>
+  <li><a href="https://sre.google/sre-book/table-of-contents/">Site Reliability Engineering</a></li>
+  <li><a href="https://sre.google/workbook/table-of-contents/">The Site Reliability Workbook</a></li>
+</ul>
+
+<hr />
+<p>手元のMac で環境を作るのは、気が引けたので、コンテナ環境にUbuntu のPod を作り、そこに環境を作ってみた。
+まず試したのは、<a href="https://kiririmode.hatenablog.jp/entry/20180429/1524998169#pup">この記事</a>。しかし、古すぎて、動かない。</p>
+
+<p>そこで、英語で検索してみると、<a href="https://github.com/captn3m0/google-sre-ebook">Github</a> を発見。Ruby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
+しかし、pdf とmobi ができあがらない。よくよく見てみると、WARNING が出ている。メッセージ通り、追加でパッケージをインストール。
+<code class="language-plaintext highlighter-rouge">sudo apt-get install texlive-xetex</code></p>
+
+<p>できあがったePub を<a href="https://www.amazon.co.jp/sendtokindle">Kindle に送付</a>したところ、エラー。
+<img src="/images/making-ePub/kindle-fail-SRE.png" alt="" width="100%" /></p>
+
+<p>エラーメッセージの内容は、</p>
+
+<p><code class="language-plaintext highlighter-rouge">E20006: OPF メタデータで定義されている一つ以上のタイトルがあります。しかし、それらのひとつでも"main" タイトルとして "title-type" で絞り込みされていません。詳細については、[https://idpf.org/epub/30/spec/epub30-publications.html#sec-opf-dctitle](http://idpf.org/epub/30/spec/epub30-publications.html#sec-opf-dctitle) をご参照ください。</code></p>
+
+<p>そこで、次にePub のメタデータの編集。Mac では有料ソフトしかなさそうなので、Windows10に<a href="https://epub-metadata-editor.softonic.jp/">アプリをインストール</a>し、opf ファイル内の2つ目のtitle id を削除。
+<code class="language-plaintext highlighter-rouge">"&lt;dc:title id="epub-title-2"&gt;workbook&lt;/dc:title&gt;"</code></p>
+
+<p>無事、Kindle で読めることになった。
+その他のSRE 関連書籍で無料公開されているものがあるので、この手順でePub 作ってみようかと。</p>
+
+    
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2023/08/31/supermoon_selfdriving/">
         自動運転実験とスーパームーン
       </a>
@@ -132,7 +180,7 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-08-31T11:24:41+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
+            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-09-03T17:00:35+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
         </small>
         <div class="ftr-links">
