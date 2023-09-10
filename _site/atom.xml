@@ -4,13 +4,29 @@
  <title>ゆるふわ</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2023-09-03T17:10:22+09:00</updated>
+ <updated>2023-09-11T08:06:35+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>とある会とRDP</title>
+   <link href="http://localhost:4000/blog/2023/09/11/aan_rdp/"/>
+   <updated>2023-09-11T00:00:00+09:00</updated>
+   <id>http://localhost:4000/blog/2023/09/11/aan_rdp</id>
+   <content type="html">&lt;p&gt;9月8日開催の「とある会」に出席するために、飛行機を利用。しかし、台風13号。。。便を前倒しにして、なんとか目的地まで到着。
+&lt;img src=&quot;/images/aan-rdp/typhoon13-shinro.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;
+&lt;img src=&quot;/images/aan-rdp/typhoon13-senjyo.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;
+&lt;img src=&quot;/images/aan-rdp/typhoon13-ana.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;これまでユーザID とサブドメイン名までしか入力していなかったので、このエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決。
+&lt;img src=&quot;/images/aan-rdp/rdp.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>SRE の原文をePub にしてみる</title>
@@ -34,7 +50,7 @@
 &lt;p&gt;手元のMac で環境を作るのは、気が引けたので、コンテナ環境にUbuntu のPod を作り、そこに環境を作ってみた。
 まず試したのは、&lt;a href=&quot;https://kiririmode.hatenablog.jp/entry/20180429/1524998169#pup&quot;&gt;この記事&lt;/a&gt;。しかし、古すぎて、動かない。&lt;/p&gt;
 
-&lt;p&gt;そこで、英語で検索してみると、&lt;a href=&quot;https://github.com/captn3m0/google-sre-ebook&quot;&gt;Github&lt;/a&gt; を発見。Ruby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
+&lt;p&gt;そこで、英語で検索してみると、&lt;a href=&quot;https://github.com/captn3m0/google-sre-ebook&quot;&gt;Github&lt;/a&gt; を発見。Docker ですればいいんだけど、K8s にUbuntu Pod を作った手前、Ubuntu にRuby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
 しかし、pdf とmobi ができあがらない。よくよく見てみると、WARNING が出ている。メッセージ通り、追加でパッケージをインストール。
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install texlive-xetex&lt;/code&gt;&lt;/p&gt;
 

@@ -38,6 +38,28 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2023/09/11/aan_rdp/">
+        とある会とRDP
+      </a>
+    </h1>
+
+    <time datetime="2023-09-11T00:00:00+09:00" class="post-date">11 Sep 2023</time>
+
+    
+      <p>9月8日開催の「とある会」に出席するために、飛行機を利用。しかし、台風13号。。。便を前倒しにして、なんとか目的地まで到着。
+<img src="/images/aan-rdp/typhoon13-shinro.png" alt="" width="50%" />
+<img src="/images/aan-rdp/typhoon13-senjyo.png" alt="" width="50%" />
+<img src="/images/aan-rdp/typhoon13-ana.jpg" alt="" width="50%" /></p>
+
+<hr />
+<p>これまでユーザID とサブドメイン名までしか入力していなかったので、このエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決。
+<img src="/images/aan-rdp/rdp.png" alt="" width="50%" /></p>
+
+    
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2023/09/03/SRE-epub/">
         SRE の原文をePub にしてみる
       </a>
@@ -63,7 +85,7 @@
 <p>手元のMac で環境を作るのは、気が引けたので、コンテナ環境にUbuntu のPod を作り、そこに環境を作ってみた。
 まず試したのは、<a href="https://kiririmode.hatenablog.jp/entry/20180429/1524998169#pup">この記事</a>。しかし、古すぎて、動かない。</p>
 
-<p>そこで、英語で検索してみると、<a href="https://github.com/captn3m0/google-sre-ebook">Github</a> を発見。Ruby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
+<p>そこで、英語で検索してみると、<a href="https://github.com/captn3m0/google-sre-ebook">Github</a> を発見。Docker ですればいいんだけど、K8s にUbuntu Pod を作った手前、Ubuntu にRuby, rbenv, gem, bundle 等々をインストールし、スクリプトを実行。見事、ePub ができあがる。
 しかし、pdf とmobi ができあがらない。よくよく見てみると、WARNING が出ている。メッセージ通り、追加でパッケージをインストール。
 <code class="language-plaintext highlighter-rouge">sudo apt-get install texlive-xetex</code></p>
 
@@ -180,7 +202,7 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-09-03T17:10:22+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
+            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-09-11T08:06:35+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
         </small>
         <div class="ftr-links">
