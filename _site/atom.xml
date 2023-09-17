@@ -4,7 +4,7 @@
  <title>ゆるふわ</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2023-09-11T08:06:35+09:00</updated>
+ <updated>2023-09-14T17:20:40+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>とある会とRDP</title>
-   <link href="http://localhost:4000/blog/2023/09/11/aan_rdp/"/>
+   <link href="http://localhost:4000/blog/2023/09/11/aan-rdp/"/>
    <updated>2023-09-11T00:00:00+09:00</updated>
-   <id>http://localhost:4000/blog/2023/09/11/aan_rdp</id>
+   <id>http://localhost:4000/blog/2023/09/11/aan-rdp</id>
    <content type="html">&lt;p&gt;9月8日開催の「とある会」に出席するために、飛行機を利用。しかし、台風13号。。。便を前倒しにして、なんとか目的地まで到着。
 &lt;img src=&quot;/images/aan-rdp/typhoon13-shinro.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;
 &lt;img src=&quot;/images/aan-rdp/typhoon13-senjyo.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;
