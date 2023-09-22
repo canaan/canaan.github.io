@@ -38,6 +38,27 @@
   
   <article class="post">
     <h1 class="post-title">
+      <a href="/blog/2023/09/21/servicemesh-gatewayapi/">
+        ServiceMesh とGateway API の関係
+      </a>
+    </h1>
+
+    <time datetime="2023-09-21T00:00:00+09:00" class="post-date">21 Sep 2023</time>
+
+    
+      <p>いまいち理解できていない。</p>
+<ul>
+  <li><a href="https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/#manual-deployment">Kubernetes Gateway API</a></li>
+  <li><a href="https://thinkit.co.jp/article/19625">Kubernetesの新しいネットワーク機能、Gateway APIを理解する</a></li>
+</ul>
+
+<p>等々を読むが，基本的なIngress やKubernetes のネットワーク周りを理解していないからだと思う。</p>
+
+    
+  </article>
+  
+  <article class="post">
+    <h1 class="post-title">
       <a href="/blog/2023/09/11/aan-rdp/">
         とある会とRDP
       </a>
@@ -52,7 +73,7 @@
 <img src="/images/aan-rdp/typhoon13-ana.jpg" alt="" width="50%" /></p>
 
 <hr />
-<p>これまでユーザID とサブドメイン名までしか入力していなかったので、このエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決。
+<p>家ではRDP を使っているが，これまでユーザID とサブドメイン名までしか入力せずにWindows に繋いでいた。しかし，急にエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決した。
 <img src="/images/aan-rdp/rdp.png" alt="" width="50%" /></p>
 
     
@@ -147,45 +168,14 @@
     
   </article>
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/blog/2023/08/17/typhoon7/">
-        台風7号
-      </a>
-    </h1>
-
-    <time datetime="2023-08-17T00:00:00+09:00" class="post-date">17 Aug 2023</time>
-
-    
-      <p>8月11日から大阪に帰省し、15日に戻ってくる予定でしたが、台風7号が関西地域にやってきたので、16日に後ろ倒し。
-伊勢湾岸道の通行止めが15日夜に解除され、16日の出発直前に名阪国道の通行止めが解除。つまり、名古屋を抜ける高速道路が出発直前の16日早朝まで1つしかなかった状態。この状態だったので、渋滞覚悟で名神高速を使って戻ろうと考えていました。往路は事故渋滞が4件、自然渋滞が1件でこれまでの最長記録の12時間で、復路はこの時間を越える可能性があり、とても不安でした。</p>
-
-<p><img src="/images/typhoon7/ise-highway.jpg" alt="" width="50%" />
-<img src="/images/typhoon7/meihankokudo.jpg" alt="" width="50%" />
-<img src="/images/typhoon7/shin-meishin.PNG" alt="" width="50%" /></p>
-
-<p>名阪国道と伊勢湾岸道の通行止めが解除されたので、不安は吹き飛び、16日6:00am に南大阪を出発し、9:00am には<a href="https://goo.gl/maps/dYqEFBFMDFLYm3VRA">長篠設楽原PA</a>に到着し、ウキウキ・ルンルンで、ルージュの伝言とか聞きながら、ドライブを楽しんでいました。</p>
-
-<p>ところがどっこい。まだ罠はありました。線状降水帯が静岡県を襲い、洗車機の中をドライブすることになり、生きた心地がしませんでした。高速道路や渋滞の時に、お世話になっていた自動運転モードも無効になり、マジでやばかった。動画は撮れていませんが、<a href="https://twitter.com/7shin_7_shin7/status/1691618774930313655?s=20">こんな感じ</a>でした。</p>
-
-<p><img src="/images/typhoon7/shizuoka-senjyo.PNG" alt="" width="50%" />
-<img src="/images/typhoon7/shintomei-tomei-stops.PNG" alt="" width="50%" />
-<img src="/images/typhoon7/shizuoka-shinbun.PNG" alt="" width="50%" /></p>
-
-<p>世の中は大変でしたが、我が家は約6時間後の12:00過ぎに戻ってこれ、自宅近くの丸亀製麺で昼食を取ることができました。
-ちなみに、新東名と東名の通行止めが解消されたのは、<a href="https://smbiz.asahi.com/article/14982336">16日の22:30ごろ</a>だったそうです。<a href="https://www.youtube.com/watch?v=F7aylpfmYec">土砂崩れ</a>が起きてたみたいです。</p>
-
-    
-  </article>
-  
 </div>
 
 <div class="pagination">
   
-    <span class="pagination-item">
+    <a class="pagination-item" href="/blog/2">
       <i class="fa fa-arrow-circle-o-left"></i> 
       <span class="pagination-text">older posts</span>
-    </span>
+    </a>
   
 
   <!-- <a class="pagination-item" href="#">archive</a> -->
@@ -202,7 +192,7 @@
 
       <footer class="footer">
         <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-09-14T17:20:40+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
+            <span class="copyright"><i class="fa fa-copyright"></i> 2015-<time datetime="2023-09-22T09:50:17+09:00">2023</time> Yoshihiko Kanaumi</span> &middot;
             <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
         </small>
         <div class="ftr-links">

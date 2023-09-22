@@ -4,13 +4,28 @@
  <title>ゆるふわ</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000"/>
- <updated>2023-09-14T17:20:40+09:00</updated>
+ <updated>2023-09-22T09:50:17+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Yoshihiko Kanaumi</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>ServiceMesh とGateway API の関係</title>
+   <link href="http://localhost:4000/blog/2023/09/21/servicemesh-gatewayapi/"/>
+   <updated>2023-09-21T00:00:00+09:00</updated>
+   <id>http://localhost:4000/blog/2023/09/21/servicemesh-gatewayapi</id>
+   <content type="html">&lt;p&gt;いまいち理解できていない。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://istio.io/latest/docs/tasks/traffic-management/ingress/gateway-api/#manual-deployment&quot;&gt;Kubernetes Gateway API&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thinkit.co.jp/article/19625&quot;&gt;Kubernetesの新しいネットワーク機能、Gateway APIを理解する&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;等々を読むが，基本的なIngress やKubernetes のネットワーク周りを理解していないからだと思う。&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>とある会とRDP</title>
@@ -23,7 +38,7 @@
 &lt;img src=&quot;/images/aan-rdp/typhoon13-ana.jpg&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;これまでユーザID とサブドメイン名までしか入力していなかったので、このエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決。
+&lt;p&gt;家ではRDP を使っているが，これまでユーザID とサブドメイン名までしか入力せずにWindows に繋いでいた。しかし，急にエラーが発生。ポート番号等々を変えてみたりしたけど、認証系のエラーなので、もちろん解決せず。そこでユーザID にドメイン名をFQDN で入力すれば解決した。
 &lt;img src=&quot;/images/aan-rdp/rdp.png&quot; alt=&quot;&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
